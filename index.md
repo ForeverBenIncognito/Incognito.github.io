@@ -28,7 +28,8 @@ This is a normal paragraph following a header. GitHub is a code hosting platform
 # Project 3
 ## Active Directory 
 > Window Server
-> Windows 10
+> 
+> Windows 10.
 > Splunk Docker
 > Sysmon
 
