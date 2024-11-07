@@ -16,14 +16,28 @@ This is a normal paragraph following a header. GitHub is a code hosting platform
 
 # Project 1
 ## Vulnerability Management
-> Kali Linux
-> Metsploitable 2
-> Tenable Nessus
+> In this project I set up a practiced host scannning, vulnerability scan, view found vulenerabilities, and generating a report with Tenable Nessus
+> 
+
+#### Software/Tools used in lab
+
+*   Kali Linux
+*   Metsploitable 2
+*   Tenable Nessus
+
 
 # Project 2
 ## Azure SIEM and Honeypot
-> Azure Sentinel
-> Forwarder
+> In this project I set up a honey pot in Azure and used Microsoft Sentinel as a SIEM to monitor network traffic
+> 
+
+#### Software/Tools used in lab
+
+*   Azure Sentinel
+*   Forwarder
+*   RDP
+
+  
 
 # Project 3
 ## Active Directory 
