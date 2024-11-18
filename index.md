@@ -27,7 +27,7 @@ This is a normal paragraph following a header. GitHub is a code hosting platform
 
 
 
-[Project 1](Project 1.md).
+[Project 1.md](https://github.com/ForeverBenIncognito/Incognito.github.io/blob/630d996342a2f1c703b7188c9a677f3e5b3cbccb/Project%201.md).
 ./another-page.html
 
 https://github.com/ForeverBenIncognito/Incognito.github.io/blob/630d996342a2f1c703b7188c9a677f3e5b3cbccb/Project%201.md
