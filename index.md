@@ -27,7 +27,7 @@ This is a normal paragraph following a header. GitHub is a code hosting platform
 
 
 
-[Project 1](./Projecct 1.md).
+[Project 1](./Project 1.md).
 
 
 
