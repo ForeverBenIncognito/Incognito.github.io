@@ -22,11 +22,12 @@ This is a normal paragraph following a header. GitHub is a code hosting platform
 #### Software/Tools used in lab
 
 *   Kali Linux
-*   Metsploitable 2
+*   Metasploitable 2
 *   Tenable Nessus
 
 
-
+For this project I wanted to mess around and learn about some Vulnerability Management tools. Tenable Nessus was always a tool that I've seen people bring up
+when talking about Vulnerability Management so I decided to give it a try. I already have had a Kali VM created but in order to actually test Nessus I needed an attack Machine and that's why I had created a Metaspoitable 2 VM. Creating a VM is kind of striaght forward, especially for what I need, so I won't go through all of those seps. But, I will walk you through setting up Tenable Nessus and learning what I can do with it.
 
 ![Branching](VM1.PNG)
 
