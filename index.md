@@ -29,6 +29,7 @@ This is a normal paragraph following a header. GitHub is a code hosting platform
 
 ![Branching](VM1.PNG‪)
 
+![Branching](VM1.PNG)
 [Project 1](https://github.com/ForeverBenIncognito/Incognito.github.io/blob/630d996342a2f1c703b7188c9a677f3e5b3cbccb/Project%201.md).
 
 
