@@ -105,9 +105,22 @@ next level is by creating scripts and learning how to automate some of these thi
 
 #### Software/Tools used in lab
 
-*   Azure Sentinel
-*   Forwarder
+*   Azure 
+*   Micrsoft Sentinel
 *   RDP
+
+Cloud Computing is one of the hottest topics in the IT/Cyber world right now and I am a big fan and user of Microsoft products (Xbox lol), so it is only right that I mess with and learn a little about Azure. While looking into Azure a little I found out that the have their own SIEM, in the cloud, and it is fairly simple to get started with. So this project really seemed cool to me and everything was pointing at it. 
+
+  I was using the free trial subscription at first which gives you $200 free credit for a month. I did the project like a month ago so I can't exactly replicate all the steps I took but I do have enough screenshots to walk you through what I have done so far. These are all the resources that were created and used for this project, under a resource group I named SIEM.
+
+![Resources](AllResources.PNG)
+
+The first thing that I did though was create a virtual machine. Once created I made sure port 3389 was open so that I can RDP into this Virtual Machine. Leaving that port open can something that is view as dangerous because people can try to get remote access to your machine. But we won't leave it open for too long and it is neccessary to create some alerts that I will explore later. When connecting to the VM it looked like this:
+
+![RDP](RDP.PNG)
+
+
+
 
 ``` KQL
 SecurityEvent 
