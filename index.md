@@ -111,12 +111,12 @@ The first thing that I did though was create a virtual machine. Once created I m
 That's pretty much it for the virtual machine. Don't really need to do anything else with it after this, so I just closed it out. Now is the time to configure Microsoft Sentinel. Everything in Azure is kind of easy to look at or they do a good job of guiding you through it. So inorder to use Sentinel I have to create a log analytics page, which lets me really play and see what's going on with the SIEM.
 
 ![Analytics](Sentinel.PNG)
-
-![Analytics](LogAnalytics.PNG)
-
 ![Analytics](BenAnalytics.PNG)
 
+With that deployed we can go into Sentinel and check our SIEM out. 
+![Analytics](LogAnalytics.PNG)
 
+As you can see there is nothing in there right now. That is because we don't have any data going into our SIEM. Also we don't have any analytic rules set up to even create an alert once we actually do have data. So first we have going to add our data connectors. The Azure Monitor Agent has a legacy connect and a new updated modern one that comes with it as well. 
 
 ``` KQL
 SecurityEvent 
