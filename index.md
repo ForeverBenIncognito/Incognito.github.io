@@ -105,8 +105,16 @@ Cloud Computing is one of the hottest topics in the IT/Cyber world right now and
 
 The first thing that I did though was create a virtual machine. Once created I made sure port 3389 was open so that I can RDP into this Virtual Machine. Leaving that port open can something that is view as dangerous because people can try to get remote access to your machine. But we won't leave it open for too long and it is neccessary to create some alerts that I will explore later. When connecting to the VM it looked like this:
 
+![RDP](VM.PNG)
 ![RDP](RDP.PNG)
 
+That's pretty much it for the virtual machine. Don't really need to do anything else with it after this, so I just closed it out. Now is the time to configure Microsoft Sentinel. Everything in Azure is kind of easy to look at or they do a good job of guiding you through it. So inorder to use Sentinel I have to create a log analytics page, which lets me really play and see what's going on with the SIEM.
+
+![Analytics](Sentinel.PNG)
+
+![Analytics](LogAnalytics.PNG)
+
+![Analytics](BenAnalytics.PNG)
 
 
 
