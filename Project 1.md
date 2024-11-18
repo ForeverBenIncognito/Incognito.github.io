@@ -17,6 +17,6 @@ layout: default
 *   Tenable Nessus
 
 
-[Branching](‪C:\Users\benja\Pictures\Cyber Projects\Vulnerability Management\VM1.PNG)
+[Branching](‪)
 
 [back](./)
