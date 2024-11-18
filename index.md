@@ -50,7 +50,10 @@ This is a normal paragraph following a header. GitHub is a code hosting platform
 *   Forwarder
 *   RDP
 
-  
+``` KQL
+SecurityEvent 
+| where Activity contains "success" and Account !contains "system"
+```
 
 # Project 3
 ## Active Directory 
