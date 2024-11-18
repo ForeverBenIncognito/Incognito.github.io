@@ -29,13 +29,21 @@ for my career.
 
 
 For this project I wanted to mess around and learn about some Vulnerability Management tools. Tenable Nessus was always a tool that I've seen people bring up
-when talking about Vulnerability Management so I decided to give it a try. I already have had a Kali VM created but in order to actually test Nessus I needed an attack Machine and that's why I had created a Metaspoitable 2 VM. Creating a VM is kind of striaght forward, especially for what I need, so I won't go through all of those seps. But, I will walk you through setting up Tenable Nessus and learning what I can do with it.
+when talking about Vulnerability Management so I decided to give it a try. I already have had a Kali VM created but in order to actually test Nessus I needed an attack Machine and that's why I had created a Metaspoitable 2 VM. Creating a VM is kind of striaght forward, especially for what I need, so I won't go through all of those steps. But, I will walk you through setting up Tenable Nessus and practicing what I can do with it.
+
+
+The first thing I have done once setting up both VMs is play around with the connectivity of the devices. 
 
 ![Branching](VM1.PNG)
 
 
 ![Octocat](NessusStart.PNG)
 ![Octocat](NessusStart2.PNG)
+
+The next little test I run is a tcp dump command, which looks like this:
+```sudo tcpdump -i eth0 -n host METASPLOITABLE_IP```
+
+![TCPdump1](TCPDump.PNG)
 
 [Project 1](https://github.com/ForeverBenIncognito/Incognito.github.io/blob/630d996342a2f1c703b7188c9a677f3e5b3cbccb/Project%201.md).
 
