@@ -172,7 +172,19 @@ Here is a little example of what that looks like for me:
 
 ![Splunk](StartingDocker.PNG)
   
+Doesn't look like it but Splunk is up and running. Once I go to http://localhost:8000 and use the credentials admin:<Password> everything should pull up fine (Password is replaced with my own of course). Since this is really my first time getting my hands on Splunk I want to mess around with it and luckly Splunk has their own documentation and tutorial. First thing I did was download the test data Splunk provides.
 
+![Splunk](TutorialData.PNG)
+
+Tutorial data downloaded and now it's time to pull it up in Splunk. Following the instructions, once I click upload data and select the files, I now have some data ingested into Splunk that I can now search through and play around with. 
+
+![Splunk](SplunkData.PNG)
+
+You can see I have started to use the New Search option at the top following the Splunk documentation.
+
+# To Be Continued
+
+ 
 ## Header 2
 
 > This is a blockquote following a header.
