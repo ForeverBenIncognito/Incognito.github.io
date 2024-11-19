@@ -118,7 +118,7 @@ With that deployed we can go into Sentinel and check our SIEM out.
 
 As you can see there is nothing in there right now. That is because I don't have any data going into my SIEM. Also I don't have any analytic rules set up to even create an alert once I actually do have data. So first I have going to add my data connectors. The Azure Monitor Agent has a legacy connect and a new updated modern one that comes with it as well. So I am going to go to the content hub and install Windows Security Events.
 
-![Connect](DaatConnector.PNG)
+![Connect](DataConnector.PNG)
 
 When you install Windows Security Events it make you select which resource you want to pull from. So ofcourse I set it up to pull from the virtual machine I have connected to. Once I got to the data connector the page in Microsoft Sentinel I can see that I now have 2 connectors and they both are connected.
 
