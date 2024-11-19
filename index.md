@@ -135,6 +135,13 @@ This code right here shows us Security Events where a login is successful and it
 
 ![Rule](AnalyticRule.PNG)
 
+Once the rule was created, I waited about 5 - 10 minutes for everything to go through as it should and when I refreshed:
+
+![SIEM](Incident.PNG)
+
+My first alert with Microsoft Sentinel. Wasn't that hard to get running and it wasn't that complicated to understand but this is just the tip of the iceburg for me. There are many ways to expand on this project and I'm definately coming back to this in the future. But for sure I want to play around with KQL and see what other events I can generate and raise an alert to. Also I've been hearing things about MISP that I want to touch on but that is for another day.
+
+
 # Project 3
 ## Active Directory 
 > Window Server
