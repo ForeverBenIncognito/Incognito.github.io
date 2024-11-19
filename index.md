@@ -25,7 +25,9 @@ The first thing I have done once setting up both VMs is play around with the con
 ![Branching](VM1.PNG)
 
 The next little test I run is a tcp dump command, which looks like this:
-```sudo tcpdump -i eth0 -n host METASPLOITABLE_IP```
+```
+sudo tcpdump -i eth0 -n host Target_IP
+```
 
 ![TCPdump1](TCPDump.PNG)
 ![TCPdump2](TCPdumpResults.PNG)
