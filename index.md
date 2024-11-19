@@ -1,12 +1,12 @@
 # Introduction 
 
 Hello, I am Ben and I am aspiring IT/Cyber Security professional. This my Github portfolio where I show and explain some projects that I am working on.
-These projects are all ran in my home lab which is basically a bunch of virtual machines I put together either to practice tools/skills I want to obtain
+These projects are all ran in my home lab which is basically a bunch of virtual machines I put together to practice tools/skills I want to obtain
 for my career.
 
 # Project 1
 ## Vulnerability Management
-> In this project I set up a practiced host scannning, vulnerability scan, view found vulenerabilities, and generating a report with Tenable Nessus
+> In this project I set up Nessus and practiced host scannning, vulnerability scan, viewing found vulenerabilities, and generating a report with Tenable Nessus
 > 
 
 #### Software/Tools used in lab
@@ -17,7 +17,7 @@ for my career.
 
 
 For this project I wanted to mess around and learn about some Vulnerability Management tools. Tenable Nessus was always a tool that I've seen people bring up
-when talking about Vulnerability Management so I decided to give it a try. I already have had a Kali VM created but in order to actually test Nessus I needed an attack Machine and that's why I had created a Metaspoitable 2 VM. Creating a VM is kind of striaght forward, especially for what I need, so I won't go through all of those steps. But, I will walk you through setting up Tenable Nessus and practicing what I can do with it.
+when talking about Vulnerability Management so I decided to give it a try. I already had a Kali VM created but in order to actually test Nessus I needed an attack Machine and that's why I had created a Metaspoitable 2 VM. Creating a VM is kind of striaght forward, especially for what I need, so I won't go through all of those steps. But, I will walk you through setting up Tenable Nessus and practicing what I can do with it.
 
 
 The first thing I have done once setting up both VMs is play around with the connectivity of the devices. 
