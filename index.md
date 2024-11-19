@@ -116,12 +116,24 @@ That's pretty much it for the virtual machine. Don't really need to do anything 
 With that deployed we can go into Sentinel and check our SIEM out. 
 ![Analytics](LogAnalytics.PNG)
 
-As you can see there is nothing in there right now. That is because we don't have any data going into our SIEM. Also we don't have any analytic rules set up to even create an alert once we actually do have data. So first we have going to add our data connectors. The Azure Monitor Agent has a legacy connect and a new updated modern one that comes with it as well. 
+As you can see there is nothing in there right now. That is because I don't have any data going into my SIEM. Also I don't have any analytic rules set up to even create an alert once I actually do have data. So first I have going to add my data connectors. The Azure Monitor Agent has a legacy connect and a new updated modern one that comes with it as well. So I am going to go to the content hub and install Windows Security Events.
+
+![Connect](DaatConnector.PNG)
+
+When you install Windows Security Events it make you select which resource you want to pull from. So ofcourse I set it up to pull from the virtual machine I have connected to. Once I got to the data connector the page in Microsoft Sentinel I can see that I now have 2 connectors and they both are connected.
+
+![Connect](DataConnected.PNG)
+
+So even with the data connectors up and running I am not done yet. It is pulling the data from my virtual machine but it is not exactly letting me know what going on and that's because I don't have any analytical rules set up. So now in Microsoft Sentinel within the log section we are going to write some KQL code and save it as an analytical rule.
 
 ``` KQL
 SecurityEvent 
 | where Activity contains "success" and Account !contains "system"
 ```
+
+This code right here shows us Security Events where a login is successful and it is not from the system. So basically with this rule it will alert us when an actual user logins in and not just the system. You can choose the name of the rule, how often you want this to run, severity, etc. So just for the example I am going to set it to medium severity and scheduled to run every 5 minutes. 
+
+![Rule](AnalyticRule.PNG)
 
 # Project 3
 ## Active Directory 
