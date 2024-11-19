@@ -165,9 +165,12 @@ This project is still in the making but I want to show the work that I have put 
 sudo systemctl start docker
 sudo docker pull splunk/splunk
 sudo docker run -d -p 8000:8000 -e "SPLUNK_START_ARGS=--accept-license" -e "SPLUNK_PASSWORD=<password>" --name splunk splunk/splunk
+sudo docker container ls
 ```
-  
 
+Here is a little example of what that looks like for me:
+
+![Splunk](StartingDocker.PNG)
   
 
 ## Header 2
