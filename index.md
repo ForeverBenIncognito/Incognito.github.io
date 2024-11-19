@@ -83,7 +83,6 @@ There are plenty of options and filters for the report you can mess around with 
 It was actually pretty straight forward but I like Vulnerability Management a lot and it is really important in a business setting. A way I can take this to the 
 next level is by creating scripts and learning how to automate some of these things.
 
-[Project 1](https://github.com/ForeverBenIncognito/Incognito.github.io/blob/630d996342a2f1c703b7188c9a677f3e5b3cbccb/Project%201.md).
 
 
 
