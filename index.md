@@ -182,7 +182,3 @@ Tutorial data downloaded and now it's time to pull it up in Splunk. Following th
 You can see I have started to use the New Search option at the top following the Splunk documentation.
 
 # To Be Continued
-
-```
-To Be Continued.
-```
