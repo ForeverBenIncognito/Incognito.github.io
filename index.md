@@ -145,12 +145,30 @@ My first alert with Microsoft Sentinel. Wasn't that hard to get running and it w
 
 
 # Project 3
-## Active Directory 
-> Window Server
-> 
-> Windows 10.
-> Splunk Docker
-> Sysmon
+## Splunk & Active Directory 
+> In this project I want to practice both using Splunk and Active Directory
+
+#### Software/Tools used in lab
+
+*   Ubuntu 
+*   Splunk Docker
+*   Windows 10
+*   Windows Server
+*   Active Directory
+
+
+This project is still in the making but I want to show the work that I have put towards it so far. I plan to have an Active Directory server with a forwarder feeding to Splunk on my Ubuntu machine. So far I have been trying to get Spunk for free or some type of trial but I don't have a business email so I think that was why it was giving me a hard time getting Splunk. A work around I have found was setting up a docker for Splunk and to my surprise I got it to work.
+
+  Like I said before I had set up the Splunk Docker on my Ubuntu machine. So the first thing I did was set up the virtual machine and install gui desktop to come with it. Setting up the Docker is pretty quick and easy (once I learned what I was doing lol). Here is the code I used to get it up and running.
+
+``` 
+sudo systemctl start docker
+sudo docker pull splunk/splunk
+sudo docker run -d -p 8000:8000 -e "SPLUNK_START_ARGS=--accept-license" -e "SPLUNK_PASSWORD=<password>" --name splunk splunk/splunk
+```
+  
+
+  
 
 ## Header 2
 
